@@ -4,141 +4,148 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-        <div class="left">
-            <h1>cub·ic</h1>
-            <img src="img/cube.ai.png" alt="logo">
-        </div>
-        <div class="right">
-            <div class="panel">
-                <div class="top">
-                    <h2>
-                        This is not a real online service. You know you need
-                        something like this in your life to help you realize
-                        your deepest dreams. Sign up <em>now</em> to get started. You
-                        <em>know</em> you want to.
-                    </h2>
-                </div>
-                <div class="middle">
-                    <div><h2>Let's do this.</h2></div>
-                    <form class="register-form" action="">
-                        <div class="name-line">
-                            <div class="fname-form whole-input">
-                                <label
-                                    for="fname"
-                                    data-help="Only letters allowed"
-                                    >FIRST NAME</label
-                                >
-                                <input
-                                    id="fname"
-                                    placeholder="First name *"
-                                    name="fname"
-                                    type="text"
-                                    value=""
-                                    pattern="^[^0-9]+$"
-                                    size="30"
-                                    maxlength="245"
-                                    required
-                                />
+        <div class="main">
+            <div class="left">
+                <h1>cub·ic</h1>
+                <img src="img/cube.ai.png" alt="logo">
+            </div>
+            <div class="right">
+                <div class="panel">
+                    <div class="top">
+                        <h2>
+                            This is not a real online service. You know you need
+                            something like this in your life to help you realize
+                            your deepest dreams. Sign up <em>now</em> to get started. You
+                            <em>know</em> you want to.
+                        </h2>
+                    </div>
+                    <div class="middle">
+                        <div><h2>Let's do this.</h2></div>
+                        <form class="register-form" action="">
+                            <div class="name-line">
+                                <div class="fname-form whole-input">
+                                    <label
+                                        for="fname"
+                                        data-help="Only letters allowed"
+                                        >FIRST NAME</label
+                                    >
+                                    <input
+                                        id="fname"
+                                        placeholder="First name *"
+                                        name="fname"
+                                        type="text"
+                                        value=""
+                                        pattern="^[^0-9]+$"
+                                        size="30"
+                                        maxlength="245"
+                                        required
+                                    />
+                                </div>
+                                <div class="lname-form whole-input">
+                                    <label
+                                        for="lname"
+                                        data-help="Only letters allowed"
+                                        >LAST NAME</label
+                                    >
+                                    <input
+                                        id="lname"
+                                        placeholder="Last name *"
+                                        name="lname"
+                                        type="text"
+                                        value=""
+                                        pattern="^[^0-9]+$"
+                                        size="30"
+                                        maxlength="245"
+                                        required
+                                    />
+                                </div>
                             </div>
-                            <div class="lname-form whole-input">
-                                <label
-                                    for="lname"
-                                    data-help="Only letters allowed"
-                                    >LAST NAME</label
-                                >
-                                <input
-                                    id="lname"
-                                    placeholder="Last name *"
-                                    name="lname"
-                                    type="text"
-                                    value=""
-                                    pattern="^[^0-9]+$"
-                                    size="30"
-                                    maxlength="245"
-                                    required
-                                />
+                            <div class="contact-line">
+                                <div class="email-form whole-input">
+                                    <label
+                                        for="email"
+                                        data-help="Format email@email.com"
+                                        >EMAIL</label
+                                    >
+                                    <input
+                                        id="email"
+                                        placeholder="Email *"
+                                        name="email"
+                                        type="email"
+                                        value=""
+                                        pattern="^[^0-9]+$"
+                                        size="30"
+                                        maxlength="245"
+                                        required
+                                    />
+                                </div>
+                                <div class="phone-form whole-input">
+                                    <label for="phone" data-help="Ipsum lorem..."
+                                        >PHONE NUMBER</label
+                                    >
+                                    <input
+                                        id="phone"
+                                        placeholder="Phone number *"
+                                        name="phone"
+                                        type="tel"
+                                        value=""
+                                        pattern="^[^0-9]+$"
+                                        size="30"
+                                        maxlength="245"
+                                        required
+                                    />
+                                </div>
                             </div>
-                        </div>
-                        <div class="contact-line">
-                            <div class="email-form whole-input">
-                                <label
-                                    for="email"
-                                    data-help="Format email@email.com"
-                                    >EMAIL</label
-                                >
-                                <input
-                                    id="email"
-                                    placeholder="Email *"
-                                    name="email"
-                                    type="email"
-                                    value=""
-                                    pattern="^[^0-9]+$"
-                                    size="30"
-                                    maxlength="245"
-                                    required
-                                />
+                            <div class="password-line">
+                                <div class="pass-form whole-input">
+                                    <label for="pass" data-help="Ipsum lorem..."
+                                        >PASSWORD</label
+                                    >
+                                    <input
+                                        id="pass"
+                                        placeholder="Password *"
+                                        name="pass"
+                                        type="password"
+                                        value=""
+                                        pattern="^[^0-9]+$"
+                                        size="30"
+                                        maxlength="245"
+                                        required
+                                    />
+                                </div>
+                                <div class="cpass-form whole-input">
+                                    <label for="cpass" data-help="Ipsum lorem..."
+                                        >CONFIRM PASSWORD</label
+                                    >
+                                    <input
+                                        id="cpass"
+                                        placeholder="Confirm password *"
+                                        name="cpass"
+                                        type="password"
+                                        value=""
+                                        pattern="^[^0-9]+$"
+                                        size="30"
+                                        maxlength="245"
+                                        required
+                                    />
+                                </div>
                             </div>
-                            <div class="phone-form whole-input">
-                                <label for="phone" data-help="Ipsum lorem..."
-                                    >PHONE NUMBER</label
-                                >
-                                <input
-                                    id="phone"
-                                    placeholder="Phone number *"
-                                    name="phone"
-                                    type="tel"
-                                    value=""
-                                    pattern="^[^0-9]+$"
-                                    size="30"
-                                    maxlength="245"
-                                    required
-                                />
-                            </div>
-                        </div>
-                        <div class="password-line">
-                            <div class="pass-form whole-input">
-                                <label for="pass" data-help="Ipsum lorem..."
-                                    >PASSWORD</label
-                                >
-                                <input
-                                    id="pass"
-                                    placeholder="Password *"
-                                    name="pass"
-                                    type="password"
-                                    value=""
-                                    pattern="^[^0-9]+$"
-                                    size="30"
-                                    maxlength="245"
-                                    required
-                                />
-                            </div>
-                            <div class="cpass-form whole-input">
-                                <label for="cpass" data-help="Ipsum lorem..."
-                                    >CONFIRM PASSWORD</label
-                                >
-                                <input
-                                    id="cpass"
-                                    placeholder="Confirm password *"
-                                    name="cpass"
-                                    type="password"
-                                    value=""
-                                    pattern="^[^0-9]+$"
-                                    size="30"
-                                    maxlength="245"
-                                    required
-                                />
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="foot">
-                    <button>Create Account</button>
-                    <div>Already have an account? <a href="">Log in</a></div>
+                        </form>
+                    </div>
+                    <div class="foot">
+                        <button>Create Account</button>
+                        <div>Already have an account? <a href="">Log in</a></div>
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="footer">
+            <a href="https://github.com/AntoineLavacquery/"><i class="fa fa-github"></i></a>
+            AntoineLavacquery
         </div>
     </body>
 </html>
