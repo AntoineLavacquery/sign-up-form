@@ -137,6 +137,9 @@ input:invalid:not(:focus) {
     color: rgb(170, 60, 0);
 }
 
+input:invalid:not(:focus) {
+    color: rgb(170, 60, 0);
+}
 
 input:placeholder-shown {
     border-bottom-color: #ffffff; /* Blanc */
@@ -154,8 +157,6 @@ input:placeholder-shown {
     padding: 36px;
     border-radius: 36px;
     gap: 24px;
-
-    
 }
 
 .panel,
@@ -192,8 +193,11 @@ button {
 }
 
 button:hover {
-    /* color: var(--accent-color); */
     background-color: var(--hovering-color);
+}
+
+button:active {
+    opacity: 0.5;
 }
 
 .middle {
